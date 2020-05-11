@@ -87,6 +87,9 @@ public class ConfigService {
         return false;
     }
 
+
+
+
     public boolean isSpecial(String cityCode, int serviceCode, long time) {
         CarDispatchSpecialPeriodSet carDispatchSpecialPeriodSet = carDispatchSpecialPeriodSetMapper.getByCityCode(cityCode, serviceCode);
         if (carDispatchSpecialPeriodSet == null) {
